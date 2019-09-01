@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Patua+One&display=swap');
+
 .profile-name{
   margin-top: 20px;
   font-size: 25px;
@@ -14,11 +17,79 @@
 }
 footer{
   background-color: #d7d7d7;
+  padding: 25px;
 }
-section:{
-  margin: 30px;
-  font-family: 'Livvic', sans-serif;
+#tittle{
+  padding-top: 30px;
+  padding: 20px;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: justify;
+  font-size: 45px;
 }
 p{
   font-family: 'Livvic', sans-serif;
+}
+ul{
+  text-align: center;
+  padding: 30px;
+  list-style-type: none;
+}
+li{
+  padding: 15px;
+  font-size: 25px;
+}
+.container {
+  padding: 40px;
+  padding-top: 0px;
+  background-color: rgba(172, 172, 172, 0.21);
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+th{
+  text-align: center;
+}
+
+td{
+  padding: 100px;
+}
+#head{
+  text-align: center;
+}
+
+#tcontent{
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 30px;
+}
+.elements {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.row{
+  padding: 30px;
+}
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-youtube21 {
+  width: 2.5em;
+}
+
+.icon-youtube2 {
+  width: 2.5087890625em;
 }
