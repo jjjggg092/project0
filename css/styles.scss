@@ -1,0 +1,33 @@
+$headtable-color1: rgba(113, 53, 60, 0.9);
+$headtable-color2: rgba(35, 48, 66, 0.54);
+$elemnttable-color1: rgba(179, 117, 125, 0.29);
+$elemnttable-color2: rgba(83, 41, 80, 0.32);
+
+@media (min-width: 500px) {
+  #head{
+    background-color: $headtable-color1;
+    text-align: center;
+    color: #ffffff;
+  }
+  #tcontent{
+    background-color: $elemnttable-color1;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 30px;
+  }
+
+}
+@media (max-width: 499px) {
+  #head{
+    background-color: $headtable-color2;
+    text-align: center;
+    color: #ffffff;
+  }
+  #tcontent{
+    background-color: $elemnttable-color2;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+  }
+
+}

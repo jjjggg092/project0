@@ -1,0 +1,24 @@
+@media (min-width: 500px) {
+  #head {
+    background-color: rgba(113, 53, 60, 0.9);
+    text-align: center;
+    color: #ffffff; }
+
+  #tcontent {
+    background-color: rgba(179, 117, 125, 0.29);
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 30px; } }
+@media (max-width: 499px) {
+  #head {
+    background-color: rgba(35, 48, 66, 0.54);
+    text-align: center;
+    color: #ffffff; }
+
+  #tcontent {
+    background-color: rgba(83, 41, 80, 0.32);
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px; } }
+
+/*# sourceMappingURL=table-style.css.map */

@@ -1,5 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Patua+One&display=swap');
+@media (min-width: 500px) {
+    .container {
+      padding: 40px;
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: rgba(172, 172, 172, 0.21);
+    }
+    #tittle{
+      padding-top: 30px;
+      padding: 20px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: justify;
+      font-size: 45px;
+    }
+}
+
+@media (max-width: 499px) {
+    .container {
+      padding: 20px;
+      padding-top: 20px;
+      background-color: rgba(4, 6, 46, 0.24);
+      font-size: 15px;
+    }
+    #tittle{
+      padding-top: 20px;
+      padding: 10px;
+      font-family: 'Alfa Slab One', cursive;
+      text-align: center;
+      font-size: 25px;
+    }
+}
 
 .profile-name{
   margin-top: 20px;
@@ -19,30 +51,21 @@ footer{
   background-color: #d7d7d7;
   padding: 25px;
 }
-#tittle{
-  padding-top: 30px;
-  padding: 20px;
-  font-family: 'Alfa Slab One', cursive;
-  text-align: justify;
-  font-size: 45px;
-}
+
 p{
   font-family: 'Livvic', sans-serif;
 }
-ul{
+
+.contact-me{
   text-align: center;
   padding: 30px;
   list-style-type: none;
 }
-li{
+li > .contact-me{
   padding: 15px;
   font-size: 25px;
 }
-.container {
-  padding: 40px;
-  padding-top: 0px;
-  background-color: rgba(172, 172, 172, 0.21);
-}
+
 
 .icon {
   display: inline-block;
@@ -59,15 +82,6 @@ th{
 
 td{
   padding: 100px;
-}
-#head{
-  text-align: center;
-}
-
-#tcontent{
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 30px;
 }
 .elements {
   display: block;
