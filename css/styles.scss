@@ -3,6 +3,11 @@ $headtable-color2: rgba(35, 48, 66, 0.54);
 $elemnttable-color1: rgba(179, 117, 125, 0.29);
 $elemnttable-color2: rgba(83, 41, 80, 0.32);
 
+%border {
+  border: 2px solid;
+  border-radius: 15px;
+}
+
 @media (min-width: 500px) {
   #head{
     background-color: $headtable-color1;
@@ -30,4 +35,27 @@ $elemnttable-color2: rgba(83, 41, 80, 0.32);
     padding: 10px;
   }
 
+}
+
+
+.nest {
+  font-size: 25px;
+  padding: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  .dark {
+    @extend %border;
+    color: #d2c9c9;
+    background-color: #5c545a;
+    text-align: left;
+    padding: 15px;
+  }
+  .white {
+    @extend %border;
+    color: #282344;
+    background-color: #d1d2cb;
+    border-color: #7c7c7c;
+    text-align: right;
+    padding: 15px;
+  }
 }
